@@ -1,9 +1,10 @@
-import React from 'react';
+// src/components/ResponsiveIframe/ResponsiveIframe.jsx
+import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ResponsiveIframe = ({ src, title }) => {
+const ResponsiveIframe = forwardRef(({ src, title }, ref) => {
   return (
-    <div style={styles.iframeContainer}>
+    <div ref={ref} style={styles.iframeContainer}>
       <iframe 
         src={src} 
         title={title} 
@@ -13,7 +14,7 @@ const ResponsiveIframe = ({ src, title }) => {
       />
     </div>
   );
-};
+});
 
 const styles = {
   iframeContainer: {
