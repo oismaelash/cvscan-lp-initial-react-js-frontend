@@ -1,0 +1,94 @@
+.beneficios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .vantagens-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .vantagens-section img {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    height: auto;
+    max-width: 300px;
+  }
+  .image-section{
+    display: flex;
+  }
+  .vantagens-content {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .section-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(253, 250, 229);
+    background: linear-gradient(to right, rgba(163, 163, 163, 0.548) 0%, rgb(252, 245, 225) 50%, rgba(163, 163, 163, 0.548) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .vantagens-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(253, 250, 229);
+    background: linear-gradient(to right, rgba(163, 163, 163, 0.548) 0%, rgb(252, 245, 225) 50%, rgba(163, 163, 163, 0.548) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .vantagens-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 0 5px;
+  }
+  
+  .vantagens-content strong {
+    font-size: 18px;
+  }
+  
+  /* Aplicar estilo específico para telas maiores */
+  @media (min-width: 768px) {
+    .vantagens-section {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .vantagens-section:nth-child(even) {
+      flex-direction: row-reverse; /* Inverte a ordem dos filhos para elementos pares */
+    }
+    
+    .vantagens-content {
+      text-align: center;
+      max-width: 50%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .image-section {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+    }
+  
+    .vantagens-section img {
+      max-width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
