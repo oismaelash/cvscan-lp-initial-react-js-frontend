@@ -5,17 +5,17 @@ const beneficiosData = [
   {
     title: 'Feedback Personalizado para seu Currículo',
     description: 'Receba um feedback personalizado através de WhatsApp ou e-mail utilizando <strong>A.I</strong>. Obtenha uma análise detalhada dos pontos fortes do seu currículo e sugestões de melhorias para atrair a atenção dos recrutadores.',
-    imgSrc: './img/cv.svg',
+    imgSrc: './img/1.png',
   },
   {
     title: 'Aprimore suas Habilidades',
     description: 'Acesse cursos personalizados para aprimorar suas habilidades e aumentar suas chances de sucesso nas entrevistas de emprego.',
-    imgSrc: './img/cv.svg',
+    imgSrc: './img/2.png',
   },
   {
     title: 'Conquiste Seu Emprego dos Sonhos',
     description: 'Com nossas dicas e orientações, você estará preparado para conquistar a vaga dos seus sonhos em pouco tempo.',
-    imgSrc: './img/cv.svg',
+    imgSrc: './img/3.png',
   }
 ];
 

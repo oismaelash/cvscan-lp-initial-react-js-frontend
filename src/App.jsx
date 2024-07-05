@@ -10,7 +10,6 @@ const App = () => {
       <LandingPage />
       <Beneficios />
       <div>
-      <h1>Meu Typebot</h1>
       <ResponsiveIframe src="https://cv.minhaentrevista.com.br/" />
     </div>
     </div>
