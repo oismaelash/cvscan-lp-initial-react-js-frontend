@@ -15,7 +15,7 @@ const beneficiosData = [
   {
     title: 'Economize Tempo e Evite Frustrações',
     description: 'Com nossas dicas e orientações, você estará preparado para conquistar a vaga dos seus sonhos em pouco tempo.',
-    imgSrc: './img/3.png',
+    imgSrc: './img/4.png',
   },
   {
     title: 'Aumente Suas Chances com Recrutadores',
