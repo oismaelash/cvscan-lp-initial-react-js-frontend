@@ -1,4 +1,3 @@
-// src/components/LandingPage/LandingPage.jsx
 import React from 'react';
 import './LandingPage.css';
 

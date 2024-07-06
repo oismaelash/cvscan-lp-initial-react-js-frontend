@@ -30,18 +30,6 @@ const styles = {
     height: '100%',
     border: 'none',
   },
-  '@media (max-width: 768px)': {
-    iframeContainer: {
-      paddingTop: 0,
-      height: '70vh',
-    },
-  },
-  '@media (min-width: 769px)': {
-    iframeContainer: {
-      width: '80vw', 
-      paddingTop: '45%', 
-    },
-  },
 };
 
 ResponsiveIframe.propTypes = {

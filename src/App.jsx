@@ -3,6 +3,7 @@ import LandingPage from './components/LandingPage';
 import ResponsiveIframe from './components/ResponsiveIframe';
 import Beneficios from './components/Beneficios';
 import Footer from './components/Footer';
+import './App.css';  
 
 const App = () => {
   const iframeRef = useRef(null);
