@@ -7,8 +7,31 @@ body, html {
   font-family: Arial, sans-serif;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden; 
 }
 
 * {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+.beneficios-container,
+.vantagens-section,
+.image-section,
+.vantagens-content {
+  max-width: 100%;
+  overflow-x: hidden; /* Garantir que não haja rolagem horizontal */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
