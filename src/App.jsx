@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import LandingPage from './components/LandingPage/LandingPage';
+import LandingPage from './components/LandingPage';
 import ResponsiveIframe from './components/ResponsiveIframe';
 import Beneficios from './components/Beneficios';
 import Footer from './components/Footer';
