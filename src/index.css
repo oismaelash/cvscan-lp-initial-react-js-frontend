@@ -1,4 +1,3 @@
-/* src/styles.css */
 body, html {
   margin: 0;
   padding: 0;
@@ -28,7 +27,7 @@ body, html {
 .image-section,
 .vantagens-content {
   max-width: 100%;
-  overflow-x: hidden; /* Garantir que não haja rolagem horizontal */
+  overflow-x: hidden;
 }
 
 img {

@@ -1,4 +1,3 @@
-// src/components/ResponsiveIframe/ResponsiveIframe.jsx
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
