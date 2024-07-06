@@ -1,0 +1,20 @@
+/* src/components/Footer/Footer.css */
+.footer-container {
+    text-align: center;
+    padding: 1px 20px;
+    background-color: #000;
+    color: #ccc;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-container a {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  
+  .footer-container a:hover {
+    color: #bdbdbd;
+  }
+  

@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import LandingPage from './components/LandingPage';
 import ResponsiveIframe from './components/ResponsiveIframe';
 import Beneficios from './components/Beneficios';
+import Footer from './components/Footer';
 
 const App = () => {
   const iframeRef = useRef(null);
@@ -20,6 +21,7 @@ const App = () => {
       <div>
         <ResponsiveIframe src="https://cv.minhaentrevista.com.br/" ref={iframeRef} />
       </div>
+      <Footer />
     </div>
   );
 };
