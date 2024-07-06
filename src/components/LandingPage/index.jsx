@@ -13,7 +13,10 @@ const LandingPage = ({ onScrollToIframe }) => {
           Feedback Especializado por <strong>Inteligência Artificial</strong> <br /> <br />
           Receba no seu WhatsApp ou e-mail uma análise detalhada dos pontos positivos do seu currículo e sugestões de melhorias, para deixá-lo 100% atrativo para os recrutadores.
         </p>
-        <button onClick={onScrollToIframe}>Quero Meu Feedback de CV Agora!</button>
+        <button onClick={() => {
+          console.log('Button clicked');
+          onScrollToIframe();
+        }}>Quero Meu Feedback de CV Agora!</button>
       </div>
     </div>
   );
