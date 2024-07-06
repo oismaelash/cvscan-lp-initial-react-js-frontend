@@ -64,7 +64,7 @@ const Beneficios = () => {
           ref={(el) => (sectionsRef.current[index] = el)}
         >
           <div className="image-section">
-            <img className="imgCv" src={beneficio.imgSrc} alt="Background" />
+            <img className="imgCv" src={beneficio.imgSrc} alt={beneficio.title} />
           </div>
           <div className="vantagens-content">
             <h1>{beneficio.title}</h1>
