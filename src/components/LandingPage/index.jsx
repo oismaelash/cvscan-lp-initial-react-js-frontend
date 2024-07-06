@@ -9,12 +9,12 @@ const LandingPage = ({ onScrollToIframe }) => {
         <img className="imgCv" src="./img/cv.svg" alt="Background" />
       </div>
       <div className="content-section">
-        <h1>Melhore Seu Currículo</h1>
+        <h1>Turbine Seu Currículo para Vagas em Tecnologia</h1>
         <p>
-          Utilize <strong>A.I</strong> e tenha RH aos seus pés <br /> <br />
-          Receba no seu WhatsApp ou e-mail uma análise detalhada dos pontos positivos do seu currículo e sugestões de melhorias, para deixá-lo <strong>100% atrativo</strong> para os recrutadores.
+          Feedback Especializado por <strong>Inteligência Artificial</strong> <br /> <br />
+          Receba no seu WhatsApp ou e-mail uma análise detalhada dos pontos positivos do seu currículo e sugestões de melhorias, para deixá-lo 100% atrativo para os recrutadores.
         </p>
-        <button onClick={onScrollToIframe}>Quero melhorar meu CV agora!</button>
+        <button onClick={onScrollToIframe}>Quero Meu Feedback de CV Agora!</button>
       </div>
     </div>
   );

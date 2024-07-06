@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useRef } from 'react';
 import LandingPage from './components/LandingPage';
 import ResponsiveIframe from './components/ResponsiveIframe';
