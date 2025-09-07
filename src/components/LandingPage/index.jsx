@@ -9,10 +9,13 @@ const LandingPage = ({ onScrollToIframe }) => {
       </div>
       <div className="content-section">
         <h1>Turbine Seu Currículo para Vagas em Tecnologia</h1>
+        <br />
         <p>
-          Feedback Especializado por <strong>Inteligência Artificial</strong> <br /> <br />
-          Receba no seu WhatsApp ou e-mail uma análise detalhada dos pontos positivos do seu currículo e sugestões de melhorias, para deixá-lo 100% atrativo para os recrutadores.
+          Utilize <strong>Inteligência Artificial</strong> e tenha <strong>RH aos seus pés</strong> <br /><br />
+          {/* Feedback Especializado por <strong>Inteligência Artificial</strong> <br /> <br /> */}
+          Receba direto no seu WhatsApp uma análise detalhada dos pontos positivos do seu currículo e sugestões de melhorias, para deixá-lo 100% atrativo para os recrutadores.
         </p>
+        <br />
         <button onClick={() => {
           console.log('Button clicked');
           onScrollToIframe();
